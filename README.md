@@ -8,11 +8,11 @@ This project uses Apache Airflow, a popular open-source platform for creating, s
 ## Table Of Contents
 - [Introduction](https://github.com/aym0ane/Twitter-Airflow-Postgres-Project#introduction)
 - [Project Architecture](https://github.com/aym0ane/Twitter-Airflow-Postgres-Project#Project-Architecture)
-- [Data Extraction](https://github.com/aym0ane/Twitter-Airflow-Postgres-Project/edit/main/README.md#Data-Extraction)
-- [Usage](https://github.com/aym0ane/Twitter-Airflow-Postgres-Project/edit/main/README.md#Usage)
-- [DAG execution](https://github.com/aym0ane/Twitter-Airflow-Postgres-Project/edit/main/README.md#DAG-execution)
-- [PostgreSQL table](https://github.com/aym0ane/Twitter-Airflow-Postgres-Project/edit/main/README.md#PostgreSQL-table)
-- [Conclusion](https://github.com/aym0ane/Twitter-Airflow-Postgres-Project/edit/main/README.md#Conclusion)
+- [Data Extraction](https://github.com/aym0ane/Twitter-Airflow-Postgres-Project#Data-Extraction)
+- [Usage](https://github.com/aym0ane/Twitter-Airflow-Postgres-Project#Usage)
+- [DAG execution](https://github.com/aym0ane/Twitter-Airflow-Postgres-Project#DAG-execution)
+- [PostgreSQL table](https://github.com/aym0ane/Twitter-Airflow-Postgres-Project#PostgreSQL-table)
+- [Conclusion](https://github.com/aym0ane/Twitter-Airflow-Postgres-Project#Conclusion)
 
 ### Introduction
 
