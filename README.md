@@ -1,6 +1,6 @@
 
 # Twitter Airflow Postgres Project
-![profile](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![profile](https://github.com/aym0ane/Twitter-Airflow-Postgres-Project/blob/main/IMAGES/Twitter%20Airflow%20Postgres%20Project.png)
 
 This project uses Apache Airflow, a popular open-source platform for creating, scheduling, and monitoring workflows. We use Airflow to create an ETL (Extract, Transform, Load) pipeline that scrapes data from Twitter and loads it into a PostgreSQL database. In order to run this pipeline consistently across different environments, we also containerize our Airflow instance using Docker. By doing this, we can ensure that the dependencies and configurations required to run the pipeline are consistent and easily reproducible, regardless of the host environment.
 
@@ -48,18 +48,19 @@ To run the pipeline, simply trigger the twitter_to_postgres_ETL DAG in the Airfl
 
 You can monitor the progress of each task and view the logs in the Airflow web interface.
 
-![Dag map](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Dag ](https://github.com/aym0ane/Twitter-Airflow-Postgres-Project/blob/main/IMAGES/DAG.JPG)
+![Dag map](https://github.com/aym0ane/Twitter-Airflow-Postgres-Project/blob/main/IMAGES/graph.JPG)
 
 
 ### DAG execution
 In Airflow, DAGs are scheduled and executed by the Airflow Scheduler based on the specified schedule interval. When a DAG is triggered, the scheduler creates and assigns tasks to workers based on the defined dependencies and execution order. 
 if the dag is executed successfuly , we see something like this : 
-![dagexecution](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![dagexecution](https://github.com/aym0ane/Twitter-Airflow-Postgres-Project/blob/main/IMAGES/dag%20execution.JPG)
 
 ### PostgreSQL table
 
 As we see we have successfuly load our scraped data to our PostgreSQL database
-![postgresTable](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![postgresTable](https://github.com/aym0ane/Twitter-Airflow-Postgres-Project/blob/main/IMAGES/posstgresql%20table.JPG)
 
 ### Conclusion
 
